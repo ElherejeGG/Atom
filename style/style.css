@@ -54,9 +54,8 @@ img {
 }
 .search {
   display: flex;
+  margin-right: 15px;
   align-items: center;
-  flex-direction: row;
-  margin-right: 10px;
 }
 .footer {
   position: sticky;
@@ -67,7 +66,7 @@ img {
   margin-top: auto;
 }
 .about {
-  margin: auto;
+  margin-inline: 20%;
 }
 
 p {
