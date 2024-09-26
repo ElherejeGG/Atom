@@ -14,8 +14,11 @@ body {
   align-items: flex-start;
   height: max-content;
   flex-direction: column;
+  border-radius: 20px 20px 0px 0px;
+  min-width: 550px;
 }
 img {
+  border-radius: 20px 20px 0px 0px;
   display: flex;
   height: 300px;
   width: 100%;
@@ -81,4 +84,37 @@ p {
   height: 30em;
   display: flex;
   justify-content: center;
+}
+.catolog {
+  display: grid;
+  width: 100%;
+  column-gap: 25px;
+  grid-template-columns: repeat(auto-fill, 225px);
+}
+.card {
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  min-height: 350px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  border-radius: 4px;
+  position: relative;
+  transition: 0.3s;
+}
+.card img {
+  /* object-fit: contain; */
+  width: 100%;
+  height: auto;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+.cardtop {
+  align-items: center;
+  flex: 0 0 220px;
+}
+.cardbot {
+  flex: 1 0 auto;
 }
